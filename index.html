@@ -1,0 +1,114 @@
+<!-- HTML is primarily used to create and structure the content of a website -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>2048 | TokioDev</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<!-- This especially for when the web app is being shared, there will be an displayed information about our app. -->
+	<meta property="og:title" content="I coded a game with Zuitt!" />
+    <meta property="og:description" content="This Game Development project is powered by Zuitt Coding Bootcamp" />
+    <meta property="og:site_name" content="I coded a game with Zuitt!" />
+    <meta property="og:image" content="https://ksahirani.github.io/js-fcb/images/story-thumbnail-2048.jpg" />
+    <meta property="og:image:secure_url" content="https://ksahirani.github.io/js-fcb" />
+
+</head>
+<body>
+
+	<div class="container"> <!--added-->
+		<!-- h1 to h6 tags are commonly used as webpage headings or content titles -->
+		<!-- h1 - biggest heading tag -->
+		<!-- h6 - smallest heading tag -->
+		<h1>2 0 4 8</2></h1> 
+		<h2>Created by: TokioDev</h2>
+		<hr id="top-line"> <!--added-->
+
+		<!-- added -->
+		<div class="header-container">
+			<div class=score-container>
+				<div class="score-label">
+					Score:
+				</div>
+				<div id="score">
+					0
+				</div>
+			</div>
+
+			<div class="share-button-container">
+				<div class="share-label">Share: </div>
+				<div class="share-icons">
+					<a href="https://www.facebook.com/sharer/sharer.php?u=https://ksahirani.github.io/js-fcb" target="_blank">
+						<img src="./images/facebook.png">	
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="board">
+			<!--
+			 <div class="tile">[r0,c0]</div>
+	            <div class="tile">[r0,c1]</div>
+	            <div class="tile">[r0,c2]</div>
+	            <div class="tile">[r0,c3]</div>
+
+	            <div class="tile">[r1,c0]</div>
+	            <div class="tile">[r1,c1]</div>
+	            <div class="tile">[r1,c2]</div>
+	            <div class="tile">[r1,c3]</div>
+
+	            <div class="tile">[r2,c0]</div>
+	            <div class="tile">[r2,c1]</div>
+	            <div class="tile">[r2,c2]</div>
+	            <div class="tile">[r2,c3]</div>
+
+	            <div class="tile">[r3,c0]</div>
+	            <div class="tile">[r3,c1]</div>
+	            <div class="tile">[r3,c2]</div>
+	            <div class="tile">[r3,c3]</div>
+
+	        -->
+		</div>
+
+	</div>
+
+	<!-- <footer>
+		
+		<a href="https://zuitt.co/?referral=2402-org-ali" target="_blank">
+			<i class="fa-solid fa-globe"></i>
+		</a>
+
+		<a href="https://www.facebook.com/zuitttechcareer" target="_blank">
+			<i class="fa-brands fa-facebook"></i>
+		</a>
+
+		<a href="https://twitter.com/zuittco" target="_blank">
+			<i class="fa-brands fa-x-twitter"></i>
+		</a>
+
+		<a href="https://www.instagram.com/zuitt_co/" target="_blank">
+			<i class="fa-brands fa-instagram"></i>
+		</a>
+
+		<a href="https://www.tiktok.com/@zuittco" target="_blank">
+			<i class="fa-brands fa-tiktok"></i>
+		</a>
+
+		<a href="https://www.youtube.com/@ZuittCo" target="_blank">
+			<i class="fa-brands fa-youtube"></i>
+		</a>	
+		
+	</footer>
+
+
+    <script src="https://kit.fontawesome.com/88b07d77e5.js" crossorigin="anonymous"></script> -->
+
+    <script type="text/javascript" src="logic.js"></script>
+
+
+	
+
+</body>
+
+</html>
